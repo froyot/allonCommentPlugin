@@ -1,0 +1,105 @@
+.allon-box-btm{
+  margin-top: 15px;
+}
+
+.pull-right{
+  float: right;
+  text-align: right;
+}
+
+.vote-comment-act{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.article-type ul li {
+    float: left;
+    cursor: pointer;
+}
+
+/* .allon-icon {
+    display: inline-block;
+    background-image: url(../img/icon.png?v=201604141714);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
+}
+
+.allon-icon-like {
+    background-position: -220px -173px;
+    cursor: pointer;
+}
+
+.allon-icon-no-like {
+    background-position: -270px -171px;
+    cursor: pointer;
+}*/
+
+.vote-comment-act li{
+  margin-right: 1.2em;
+}
+
+.icon-chalt .allon-icon{
+  border:1px solid #fff;
+
+}
+ .allon-icon{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: text-bottom;
+
+    border-radius: 200px;
+    background-image: url(../img/ry_icon.png);
+    background-repeat: no-repeat;
+
+}
+
+.allon-icon-like{
+ background-position: -279px -5px;
+
+  }
+.allon-icon-like:hover{
+   background-position: -279px -75px;
+}
+.allon-icon-edit{
+  background-position: -159px -5px;
+}
+.allon-icon-edit:hover{
+  background-position: -159px -75px;
+}
+.count{
+
+    position: relative;
+    top: -11px;
+    margin-left: 10px;
+
+  }
+.comment-list article{
+  padding: 0px;
+  margin-bottom: 1.2em;
+}
+.comment-list article>.comment-meta{
+  margin-left: 5px;
+}
+
+.comment-childs{
+    border: 1px solid #999;
+
+    padding: 4px;
+    background-color: white;
+
+  }
+  .comment-content{
+    padding: 5px;
+  }
+
+  .chalt {
+    background-color: #E2E2E2;
+}
+
+.comment-body .reply{
+  margin-bottom: 0.5em;
+}
